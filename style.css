@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(161, 160, 159, 0.31);
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container1 {
+    height: 100vh;
+    background-color: rgba(140, 7, 157, 0.244);
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.container2 {
+    margin: 0 25px;
+    height: 500vh;
+    background-color: rgba(29, 31, 31, 0.693);
+    width: 48%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.follow{
+    height: 45%;
+    width: 80%;
+    background-color: azure;
+    margin: auto;
+    border-radius: 15px;
+} 
+.news{
+    height: 45%;
+    width: 80%;
+    background-color: azure;
+    margin: auto;
+    border-radius: 15px;
+} 
+
+.stories {
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #98161660;
+}
+
+.post-makerr {
+    height: 150px;
+    margin:10px 15px;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.feed {
+    height: 100%;
+    background-color: rgb(99, 99, 194);
+    margin: 10px 5px;
+    border-radius: 25px;
+   
+}
+
+.floter {
+   position: relative;
+    right: 0;
+    float: right;
+    background-color: aqua;
+}
+
+.cardd {
+    height: 200px;
+    width: 180px;
+    margin: 8px 8px;
+    background-color: #fff;
+    border-radius: 25px;
+}
